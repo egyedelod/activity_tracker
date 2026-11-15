@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Activity Tracker Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #ddd;
+            margin-top: 20px;
+        }
+
+        .hours {
+            font-size: 40px;
+            color: green;
+            font-weight: bold;
+        }
+
+        a.button {
+            display: inline-block;
+            background: #0078d4;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Daily Activity Dashboard</h1>
+
+<div class="card">
+    <h3>Egyed Elod</h3>
+
+    <p>Hours logged today:</p>
+
+    <div class="hours" id="hours">
+        5.5
+    </div>
+
+    <p>Hours remaining:</p>
+
+    <div class="hours" style="color:red" id="remaining">
+        2.5
+    </div>
+
+    <a class="button"
+       href="https://forms.office.com/"
+       target="_blank">
+       Add Activity
+    </a>
+</div>
+
+</body>
+</html>
